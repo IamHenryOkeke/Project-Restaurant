@@ -11,7 +11,7 @@
 body { 
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('../src/images/FoodPics.jpg');
+  background-image: url('./FoodPics.jpg');
 }
 
 .header{
@@ -59,6 +59,10 @@ body {
   margin: 0 auto;
   width: 80%;
   text-align: center;
+}
+
+#home{
+  margin: 0 auto;
 }
 
 #content > #home, #contact, #item > h2 {
