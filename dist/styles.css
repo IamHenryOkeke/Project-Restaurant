@@ -44,8 +44,6 @@ body {
   font-size: 18px;
   font-weight: 600;
   padding: 20px 70px;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  -ms-transition: -ms-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
 
@@ -53,8 +51,6 @@ button:hover{
   opacity: 0.5;
   cursor: pointer;
   transform:rotate(10deg);
-  -ms-transform:rotate(10deg);
-  -webkit-transform:rotate(10deg);
 }
 
 
@@ -83,7 +79,7 @@ button:hover{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 40px;
   margin: 30px 0;
 }
 
@@ -99,5 +95,13 @@ button:hover{
 #content > #menu > #item > img {
   height: 200px;
   width: auto;
+}
+
+#item{
+  transition: transform .5s ease-in-out;
+}
+
+#item:hover{
+  transform: translate(0, -10px);
 }
 
